@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
 import re
+import sys
 import urllib2
+#import ngender
+
+sys.path.append('../ngender/ngender/')
 import ngender
 
 url_base = 'http://sem.buaa.edu.cn/szdw/'
